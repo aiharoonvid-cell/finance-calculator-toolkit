@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <a href="https://uifcalculator.com"><b>📚 Live calculators &amp; full documentation → uif calculator</b></a>
+  <a href="https://uifcalculator.com"><b>📚 Live calculators &amp; full documentation → uifcalculator.com</b></a>
 </p>
 
 ---
@@ -480,4 +480,3 @@ Found a calculation bug or want a new calculator? [Open an issue](https://github
     <a href="https://uifcalculator.com"><b>uifcalculator.com</b></a>
   </sub>
 </p>
-

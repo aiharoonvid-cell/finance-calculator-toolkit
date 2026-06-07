@@ -1,0 +1,65 @@
+{
+  "name": "salary-finance-toolkit",
+  "version": "1.0.0",
+  "description": "Open-source finance, payroll, salary, tax and interest calculation toolkit for JavaScript and TypeScript.",
+  "keywords": [
+    "finance",
+    "payroll",
+    "salary-calculator",
+    "tax-calculator",
+    "compound-interest",
+    "emi-calculator",
+    "typescript",
+    "javascript",
+    "fintech",
+    "financial-calculations"
+  ],
+  "homepage": "https://uifcalculator.com",
+  "bugs": {
+    "url": "https://github.com/your-org/salary-finance-toolkit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-org/salary-finance-toolkit.git"
+  },
+  "license": "MIT",
+  "author": "Salary Finance Toolkit contributors",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --clean",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "coverage": "vitest run --coverage",
+    "lint": "eslint \"src/**/*.ts\"",
+    "format": "prettier --write \"**/*.{ts,md,json}\"",
+    "docs": "typedoc src/index.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.4.0",
+    "vitest": "^1.4.0"
+  }
+}
