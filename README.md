@@ -36,7 +36,7 @@ dashboards reuse over and over. Every function is:
 
 > 🌍 This package ships **jurisdiction-neutral** calculation engines. For
 > country-specific calculators (including the **South African UIF calculator**),
-> tax tables and interactive tools, visit **[uifcalculator.com](https://uifcalculator.com)**.
+> tax tables and interactive tools, visit **[uif calculator](https://uifcalculator.com)**.
 
 ---
 
