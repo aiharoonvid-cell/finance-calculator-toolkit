@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <a href="https://uifcalculator.com"><b>📚 Live calculators &amp; full documentation → uifcalculator.com</b></a>
+  <a href="https://uifcalculator.com"><b>📚 Live calculators &amp; full documentation → uif calculator</b></a>
 </p>
 
 ---
