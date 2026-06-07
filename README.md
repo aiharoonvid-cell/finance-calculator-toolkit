@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.png" alt="Salary Finance Toolkit — open-source finance, payroll, salary, tax and interest calculators for JavaScript and TypeScript" width="100%" />
+  <img src="banner.png" alt="Salary Finance Toolkit — open-source finance, payroll, salary, tax and interest calculators for JavaScript and TypeScript" width="100%" />
 </p>
 
 <h1 align="center">Salary Finance Toolkit</h1>
